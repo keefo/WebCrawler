@@ -42,17 +42,15 @@
                     <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="EIQ-DR-w7b"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="Qbf-PF-l7a"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="soH-Vj-0dG"/>
-                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="wcD-y3-zvu"/>
                     <toolbarItem implicitItemIdentifier="4A1D2400-7D21-4159-83CD-6E5FDFD2691C" label="Start/Stop" paletteLabel="Start/Stop" tag="-1" image="startTemplate" id="Qau-4F-rhP">
                         <connections>
                             <action selector="startStopAction:" target="-2" id="mgH-Fh-cPj"/>
                         </connections>
                     </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="rOI-KV-Qpb"/>
                 </allowedToolbarItems>
                 <defaultToolbarItems>
-                    <toolbarItem reference="O3z-bm-BRO"/>
-                    <toolbarItem reference="EIQ-DR-w7b"/>
-                    <toolbarItem reference="wcD-y3-zvu"/>
+                    <toolbarItem reference="rOI-KV-Qpb"/>
                     <toolbarItem reference="Qau-4F-rhP"/>
                 </defaultToolbarItems>
             </toolbar>
