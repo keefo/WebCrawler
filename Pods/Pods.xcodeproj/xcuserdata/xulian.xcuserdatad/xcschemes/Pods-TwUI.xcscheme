@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "95E80978C5C3EA02F6631481"
+               BlueprintIdentifier = "5CCFF3B9EA356B222AD2A431"
                BuildableName = "libPods-TwUI.a"
                BlueprintName = "Pods-TwUI"
                ReferencedContainer = "container:Pods.xcodeproj">
