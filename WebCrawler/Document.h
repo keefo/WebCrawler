@@ -7,6 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "GroupButton.h"
 
 @interface Document : NSPersistentDocument
+@property(assign) IBOutlet NSToolbar *toolbar;
+@property(assign) IBOutlet NSSegmentedControl *groupbutton;
+@property(assign) IBOutlet NSToolbarItem *groupbuttonitem;
+
+
 @end

@@ -1,0 +1,33 @@
+PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/Core
+    - ASIHTTPRequest/S3
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - TwUI (0.5.2):
+    - TwUI/Support
+    - TwUI/UIKit
+  - TwUI/Support (0.5.2)
+  - TwUI/UIKit (0.5.2):
+    - TwUI/Support
+    - TwUI/UIKit/NSColorExtensions
+  - TwUI/UIKit/NSColorExtensions (0.5.2):
+    - TwUI/Support
+
+DEPENDENCIES:
+  - ASIHTTPRequest (~> 1.8.2)
+  - TwUI (~> 0.2)
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: 2c8335b49410c0e2ad42829c438e74d454b77590
+  TwUI: c243e5ac54d9e6a5177099fa6e1684abe9542a98
+
+COCOAPODS: 0.34.1

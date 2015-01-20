@@ -6,7 +6,10 @@
 //  Copyright (c) 2015 Beyondcow. All rights reserved.
 //
 
+#import <ASIHTTPRequest/ASIHTTPRequest.h>
+#import <TUIKit.h>
 #import "Document.h"
+#import "NSToolbar+Height.h"
 
 @interface Document ()
 
