@@ -11,8 +11,15 @@
 
 @interface Document : NSPersistentDocument
 @property(assign) IBOutlet NSToolbar *toolbar;
-@property(assign) IBOutlet NSSegmentedControl *groupbutton;
+@property(assign) IBOutlet NSSegmentedControl *tabbutton;
 @property(assign) IBOutlet NSToolbarItem *groupbuttonitem;
+@property(assign) IBOutlet NSImageView *statusicon;
+@property(assign) IBOutlet NSView *tabview1;
+@property(assign) IBOutlet NSView *tabview2;
+@property(assign) IBOutlet NSView *tabview3;
+@property(assign) IBOutlet NSView *contentview;
+@property(assign) IBOutlet NSTextView *urlsview;
 
+- (IBAction)tabAction:(id)sender;
 
 @end
