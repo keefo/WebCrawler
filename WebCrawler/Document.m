@@ -37,4 +37,9 @@
     return @"Document";
 }
 
+- (IBAction)startStopAction:(id)sender
+{
+    NSLog(@"startStopAction");
+}
+
 @end

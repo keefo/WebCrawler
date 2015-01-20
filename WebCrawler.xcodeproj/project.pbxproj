@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2A1E5F1A6DE7CD00FE44F1 /* startTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C2A1E5E1A6DE7CD00FE44F1 /* startTemplate.png */; };
 		0C838D781A6DE1E700CE0C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C838D771A6DE1E700CE0C9A /* AppDelegate.m */; };
 		0C838D7A1A6DE1E700CE0C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C838D791A6DE1E700CE0C9A /* main.m */; };
 		0C838D7D1A6DE1E700CE0C9A /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C838D7C1A6DE1E700CE0C9A /* Document.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C2A1E5E1A6DE7CD00FE44F1 /* startTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startTemplate.png; sourceTree = "<group>"; };
 		0C838D711A6DE1E700CE0C9A /* WebCrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebCrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C838D751A6DE1E700CE0C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C838D761A6DE1E700CE0C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		0C838D741A6DE1E700CE0C9A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C2A1E5E1A6DE7CD00FE44F1 /* startTemplate.png */,
 				0C838D751A6DE1E700CE0C9A /* Info.plist */,
 				0C838D791A6DE1E700CE0C9A /* main.m */,
 			);
@@ -204,6 +207,7 @@
 			files = (
 				0C838D801A6DE1E700CE0C9A /* Document.xib in Resources */,
 				0C838D851A6DE1E700CE0C9A /* Images.xcassets in Resources */,
+				0C2A1E5F1A6DE7CD00FE44F1 /* startTemplate.png in Resources */,
 				0C838D881A6DE1E700CE0C9A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +424,7 @@
 				0C838D991A6DE1E700CE0C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C838D9A1A6DE1E700CE0C9A /* Build configuration list for PBXNativeTarget "WebCrawlerTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +433,7 @@
 				0C838D9C1A6DE1E700CE0C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

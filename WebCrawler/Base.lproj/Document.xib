@@ -15,15 +15,15 @@
         <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="xOd-HO-29H" userLabel="Window">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="133" y="235" width="507" height="352"/>
+            <rect key="contentRect" x="133" y="235" width="569" height="373"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
             <value key="minSize" type="size" width="94" height="86"/>
             <view key="contentView" id="gIp-Ho-8D9">
-                <rect key="frame" x="0.0" y="0.0" width="507" height="352"/>
+                <rect key="frame" x="0.0" y="0.0" width="569" height="373"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-mo-xeY">
-                        <rect key="frame" x="119" y="165" width="268" height="22"/>
+                        <rect key="frame" x="119" y="176" width="268" height="22"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Your document contents here" id="JDq-Ah-v2f">
                             <font key="font" metaFont="system" size="18"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -36,24 +36,33 @@
                     <constraint firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="s6i-b7-llN"/>
                 </constraints>
             </view>
-            <toolbar key="toolbar" implicitIdentifier="AD0C1EC6-BC57-430A-9C1D-10F30B2DD1A5" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="ObL-kt-emp">
+            <toolbar key="toolbar" implicitIdentifier="AD0C1EC6-BC57-430A-9C1D-10F30B2DD1A5" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconOnly" sizeMode="small" id="ObL-kt-emp">
                 <allowedToolbarItems>
                     <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="O3z-bm-BRO"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="EIQ-DR-w7b"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="Qbf-PF-l7a"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="soH-Vj-0dG"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="wcD-y3-zvu"/>
+                    <toolbarItem implicitItemIdentifier="4A1D2400-7D21-4159-83CD-6E5FDFD2691C" label="Start/Stop" paletteLabel="Start/Stop" tag="-1" image="startTemplate" id="Qau-4F-rhP">
+                        <connections>
+                            <action selector="startStopAction:" target="-2" id="mgH-Fh-cPj"/>
+                        </connections>
+                    </toolbarItem>
                 </allowedToolbarItems>
                 <defaultToolbarItems>
                     <toolbarItem reference="O3z-bm-BRO"/>
                     <toolbarItem reference="EIQ-DR-w7b"/>
                     <toolbarItem reference="wcD-y3-zvu"/>
+                    <toolbarItem reference="Qau-4F-rhP"/>
                 </defaultToolbarItems>
             </toolbar>
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-x8E"/>
             </connections>
-            <point key="canvasLocation" x="322.5" y="405"/>
+            <point key="canvasLocation" x="353.5" y="415.5"/>
         </window>
     </objects>
+    <resources>
+        <image name="startTemplate" width="28" height="28"/>
+    </resources>
 </document>
