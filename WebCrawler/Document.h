@@ -19,6 +19,7 @@
 @property(assign) IBOutlet NSView *tabview3;
 @property(assign) IBOutlet NSView *contentview;
 @property(assign) IBOutlet NSTextView *urlsview;
+@property(assign) IBOutlet NSTextField *statusfield;
 
 - (IBAction)tabAction:(id)sender;
 

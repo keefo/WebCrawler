@@ -33,6 +33,8 @@
     [super windowControllerDidLoadNib:aController];
     [_tabbutton setSelectedSegment:0];
     [_statusicon setImage:[NSImage imageNamed:@"NSStatusNone"]];
+    [(NSTextFieldCell*)[_statusfield cell] setBackgroundStyle:NSBackgroundStyleRaised];
+    [_statusfield setStringValue:@""];
     [_urlsview setDelegate:self];
     
     // The Context
